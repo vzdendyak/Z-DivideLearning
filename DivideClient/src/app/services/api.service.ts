@@ -9,6 +9,7 @@ import {Task} from "../models/task";
 })
 export class ApiService {
   taskRoute = environment.url + 'tasks';
+  summary: number;
 
   constructor(private http: HttpClient) {
 
@@ -16,5 +17,9 @@ export class ApiService {
 
   getTasks() {
     return this.http.get(this.taskRoute);
+  }
+
+  validateAnswers(answers: Task[]){
+    return this.http.post(this.taskRoute, answers);
   }
 }

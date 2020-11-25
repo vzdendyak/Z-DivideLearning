@@ -1,0 +1,83 @@
+
+.learning-content{
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.tasks-block {
+  display: grid;
+  height: 80%;
+  margin-top: 20px;
+  width: 75%;
+}
+.remark-block{
+  height: 80%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculation {
+  display: flex;
+  width: max-content;
+  margin: auto 20px;
+  background-color: #fffbfb;
+  border-radius: 12px;
+  height: 60%;
+}
+
+.explanation {
+  margin: auto 0px;
+  width: 60%;
+  display: flex;
+  background-color: #299cff;
+  border-radius: 10px;
+  color: white;
+}
+.explanation-text{
+  margin: auto;
+  padding: 10px 25px;
+  font-size: 13pt;
+}
+.divisor {
+  background-color: #aabbf6;
+
+}
+
+.denominator {
+  background-color: #d05a5a;
+
+}
+
+.result {
+  background-color: #ffca8a;
+}
+
+.number {
+  font-size: 20pt;
+  padding: 5px 10px;
+  margin: auto 5px;
+  border-radius: 5px;
+}
+
+.equals {
+
+}
+
+.symbol {
+  font-size: 20pt;
+  margin: auto;
+}
+
+.icon{
+  padding: 15px 10px;
+  margin: 15px 0px;
+  border-radius: 10px;
+  font-size: 17pt;
+  text-align: center;
+}

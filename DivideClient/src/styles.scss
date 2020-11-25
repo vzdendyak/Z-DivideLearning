@@ -1,4 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.content {
+  width: 50%;
+  margin: auto;
+  background-color: #e4e4e4;
+  border-radius: 30px;
+  height: 100%;
+
+}
+
+
+
+
+
 /*Обнуление*/
 * {
   padding: 0;
@@ -54,6 +69,7 @@ button::-moz-focus-inner {
 
 a, a:visited {
   text-decoration: none;
+  color: white;
 }
 
 a:hover {

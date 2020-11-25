@@ -1,30 +1,28 @@
-<div class="content">
-  <div class="remark-block">
-    <div class="divisor icon">
-      <span>Ділене</span>
-    </div>
-    <div class="denominator icon">
-      <span>Дільник</span>
-
-    </div>
-    <div class="result icon">
-      <span>Частка</span>
-
-    </div>
+<div class="practice-content" *ngIf="tasks">
+  <div class="test-title">
+    <span class="qst-number">{{this.taskNumber + 1}}/10</span>
   </div>
-  <div class="tasks-block">
-    <div class="task" *ngFor="let i of tasks">
-      <div class="calculation">
-        <span class="divisor number">{{i.divisor}}</span>
-        <span class="divide symbol"> : </span>
-        <span class="denominator number">{{i.denominator}}</span>
-        <span class="equals symbol ">=</span>
-        <span class="result number">{{i.result}}</span>
-      </div>
-      <div class="explanation">
-        <span class="explanation-text">{{i.description}}</span>
-      </div>
+  <div class="qst-block">
+    <span class="qst-title">{{tasks[taskNumber].divisor}} : {{tasks[taskNumber].denominator}} = X</span>
+  </div>
+  <div class="ans-block">
+    <ul class="ans-list grid-container">
+      <li class="ans" *ngFor="let o of tasks[taskNumber].options" (click)="makeAnswer(o.value)"
+          [ngClass]="{'markedAnswer' : this.tasks[taskNumber].userAnswer==o.value}">
+        {{o.value}}
+      </li>
+    </ul>
+  </div>
+  <div class="move-buttons">
+    <button class="btn btn-danger my-button finish-button" [routerLink]="['/menu']">Вихід</button>
 
-    </div>
+
+    <button class="btn btn-primary my-button" [disabled]="taskNumber<=0" (click)="movePrev()">Назад</button>
+    <button class="btn btn-success my-button" *ngIf="taskNumber<9; else finishBut" (click)="moveNext()">Вперед
+    </button>
+    <ng-template #finishBut>
+      <button class="btn btn-warning my-button" (click)="submitTest()">Завершити</button>
+    </ng-template>
+
   </div>
 </div>
