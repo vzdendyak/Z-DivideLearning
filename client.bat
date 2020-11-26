@@ -1,0 +1,2 @@
+cd DivideClient 
+npm start

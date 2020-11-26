@@ -1,0 +1,2 @@
+cd DivideApi
+npm start
