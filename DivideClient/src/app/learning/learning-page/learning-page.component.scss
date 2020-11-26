@@ -2,7 +2,7 @@
 .learning-content{
   display: flex;
   justify-content: space-evenly;
-  height: 100%;
+  height: 90%;
 }
 .tasks-block {
   display: grid;
@@ -80,4 +80,33 @@
   border-radius: 10px;
   font-size: 17pt;
   text-align: center;
+}
+.navigation-block{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: -60px;
+}
+.my-button{
+  width: 8%;
+  height: 60px;
+  font-size: 18pt;
+  color: black;
+  background-color: #FAFAFA;
+  &:hover{
+    background-color: #cbcbcb;
+
+  }
+}
+.active-n{
+  background-color: #cbcbcb;
+
+}
+.second-navigation-block{
+  position: relative;
+  top: -30px;
+}
+.my-button-menu{
+  width: 100%;
+  font-size: 14pt;
 }

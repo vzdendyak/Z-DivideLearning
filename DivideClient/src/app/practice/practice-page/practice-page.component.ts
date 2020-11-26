@@ -15,7 +15,7 @@ export class PracticePageComponent implements OnInit {
   taskNumber: number;
 
   constructor(private apiService: ApiService, private router: Router) {
-    this.apiService.getTasks().subscribe(value => {
+    this.apiService.getPracticeTasks().subscribe(value => {
       this.taskNumber = 0;
       // @ts-ignore
       this.tasks = value.tasks;

@@ -1,1 +1,782 @@
-[{"id":1,"divisor":4,"denominator":2,"result":2,"description":"4 ділиться на 2 як 2 + 2 ","options":[{"id":4,"value":2,"taskId":1},{"id":5,"value":3,"taskId":1},{"id":6,"value":1,"taskId":1},{"id":7,"value":4,"taskId":1}],"userAnswer":null},{"id":2,"divisor":6,"denominator":2,"result":3,"description":"6 ділиться на 2 як 3 + 3 ","options":[{"id":8,"value":3,"taskId":2},{"id":9,"value":4,"taskId":2},{"id":10,"value":2,"taskId":2},{"id":11,"value":6,"taskId":2}],"userAnswer":null},{"id":2,"divisor":6,"denominator":2,"result":3,"description":"6 ділиться на 2 як 3 + 3 ","options":[{"id":8,"value":3,"taskId":2},{"id":9,"value":4,"taskId":2},{"id":10,"value":2,"taskId":2},{"id":11,"value":6,"taskId":2}],"userAnswer":null},{"id":3,"divisor":8,"denominator":2,"result":4,"description":"8 ділиться на 2 як 4 + 4 ","options":[{"id":12,"value":4,"taskId":3},{"id":13,"value":5,"taskId":3},{"id":14,"value":3,"taskId":3},{"id":15,"value":8,"taskId":3}],"userAnswer":null},{"id":4,"divisor":10,"denominator":2,"result":5,"description":"10 ділиться на 2 як 5 + 5 ","options":[{"id":16,"value":5,"taskId":4},{"id":17,"value":6,"taskId":4},{"id":18,"value":4,"taskId":4},{"id":19,"value":10,"taskId":4}],"userAnswer":null},{"id":5,"divisor":15,"denominator":3,"result":5,"description":"15 ділиться на 3 як 5 + 5 + 5 ","options":[{"id":20,"value":5,"taskId":5},{"id":21,"value":6,"taskId":5},{"id":22,"value":4,"taskId":5},{"id":23,"value":10,"taskId":5}],"userAnswer":null},{"id":6,"divisor":18,"denominator":6,"result":3,"description":"18 ділиться на 6 як 3 + 3 + 3 + 3 + 3 + 3 ","options":[{"id":24,"value":3,"taskId":6},{"id":25,"value":4,"taskId":6},{"id":26,"value":2,"taskId":6},{"id":27,"value":6,"taskId":6}],"userAnswer":null},{"id":7,"divisor":21,"denominator":3,"result":7,"description":"21 ділиться на 3 як 7 + 7 + 7 ","options":[{"id":28,"value":7,"taskId":7},{"id":29,"value":8,"taskId":7},{"id":30,"value":6,"taskId":7},{"id":31,"value":14,"taskId":7}],"userAnswer":null},{"id":8,"divisor":15,"denominator":5,"result":3,"description":"15 ділиться на 5 як 3 + 3 + 3 + 3 + 3 ","options":[{"id":32,"value":3,"taskId":8},{"id":33,"value":4,"taskId":8},{"id":34,"value":2,"taskId":8},{"id":35,"value":6,"taskId":8}],"userAnswer":null},{"id":9,"divisor":25,"denominator":5,"result":5,"description":"25 ділиться на 5 як 5 + 5 + 5 + 5 + 5 ","options":[{"id":36,"value":5,"taskId":9},{"id":37,"value":6,"taskId":9},{"id":38,"value":4,"taskId":9},{"id":39,"value":10,"taskId":9}],"userAnswer":null},{"id":10,"divisor":30,"denominator":2,"result":15,"description":"30 ділиться на 2 як 15 + 15 ","options":[{"id":40,"value":15,"taskId":10},{"id":41,"value":16,"taskId":10},{"id":42,"value":14,"taskId":10},{"id":43,"value":30,"taskId":10}],"userAnswer":null},{"id":11,"divisor":5,"denominator":5,"result":1,"description":"5 ділиться на 5 як 1 + 1 + 1 + 1 + 1 ","options":[{"id":44,"value":1,"taskId":11},{"id":45,"value":2,"taskId":11},{"id":46,"value":0,"taskId":11},{"id":47,"value":2,"taskId":11}],"userAnswer":null},{"id":12,"divisor":6,"denominator":3,"result":2,"description":"6 ділиться на 3 як 2 + 2 + 2 ","options":[{"id":48,"value":2,"taskId":12},{"id":49,"value":3,"taskId":12},{"id":50,"value":1,"taskId":12},{"id":51,"value":4,"taskId":12}],"userAnswer":null},{"id":13,"divisor":49,"denominator":7,"result":7,"description":"49 ділиться на 7 як 7 + 7 + 7 + 7 + 7 + 7 + 7 ","options":[{"id":52,"value":7,"taskId":13},{"id":53,"value":8,"taskId":13},{"id":54,"value":6,"taskId":13},{"id":55,"value":14,"taskId":13}],"userAnswer":null},{"id":14,"divisor":56,"denominator":8,"result":7,"description":"56 ділиться на 8 як 7 + 7 + 7 + 7 + 7 + 7 + 7 + 7 ","options":[{"id":56,"value":7,"taskId":14},{"id":57,"value":8,"taskId":14},{"id":58,"value":6,"taskId":14},{"id":59,"value":14,"taskId":14}],"userAnswer":null},{"id":15,"divisor":36,"denominator":4,"result":9,"description":"36 ділиться на 4 як 9 + 9 + 9 + 9 ","options":[{"id":60,"value":9,"taskId":15},{"id":61,"value":10,"taskId":15},{"id":62,"value":8,"taskId":15},{"id":63,"value":18,"taskId":15}],"userAnswer":null},{"id":16,"divisor":27,"denominator":3,"result":9,"description":"27 ділиться на 3 як 9 + 9 + 9 ","options":[{"id":64,"value":9,"taskId":16},{"id":65,"value":10,"taskId":16},{"id":66,"value":8,"taskId":16},{"id":67,"value":18,"taskId":16}],"userAnswer":null},{"id":17,"divisor":32,"denominator":8,"result":4,"description":"32 ділиться на 8 як 4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 ","options":[{"id":68,"value":4,"taskId":17},{"id":69,"value":5,"taskId":17},{"id":70,"value":3,"taskId":17},{"id":71,"value":8,"taskId":17}],"userAnswer":null},{"id":18,"divisor":48,"denominator":6,"result":8,"description":"48 ділиться на 6 як 8 + 8 + 8 + 8 + 8 + 8 ","options":[{"id":72,"value":8,"taskId":18},{"id":73,"value":9,"taskId":18},{"id":74,"value":7,"taskId":18},{"id":75,"value":16,"taskId":18}],"userAnswer":null},{"id":19,"divisor":42,"denominator":6,"result":7,"description":"42 ділиться на 6 як 7 + 7 + 7 + 7 + 7 + 7 ","options":[{"id":76,"value":7,"taskId":19},{"id":77,"value":8,"taskId":19},{"id":78,"value":6,"taskId":19},{"id":79,"value":14,"taskId":19}],"userAnswer":null},{"id":20,"divisor":40,"denominator":5,"result":8,"description":"40 ділиться на 5 як 8 + 8 + 8 + 8 + 8 ","options":[{"id":80,"value":8,"taskId":20},{"id":81,"value":9,"taskId":20},{"id":82,"value":7,"taskId":20},{"id":83,"value":16,"taskId":20}],"userAnswer":null}]
+[
+  {
+    "id": 0,
+    "divisor": 4,
+    "denominator": 2,
+    "result": 2,
+    "description": "4 ділиться на 2 як 2 + 2 ",
+    "options": [
+      {
+        "id": 0,
+        "value": 2,
+        "taskId": 0
+      },
+      {
+        "id": 1,
+        "value": 3,
+        "taskId": 0
+      },
+      {
+        "id": 2,
+        "value": 1,
+        "taskId": 0
+      },
+      {
+        "id": 3,
+        "value": 4,
+        "taskId": 0
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 1,
+    "divisor": 6,
+    "denominator": 2,
+    "result": 3,
+    "description": "6 ділиться на 2 як 3 + 3 ",
+    "options": [
+      {
+        "id": 4,
+        "value": 3,
+        "taskId": 1
+      },
+      {
+        "id": 5,
+        "value": 4,
+        "taskId": 1
+      },
+      {
+        "id": 6,
+        "value": 2,
+        "taskId": 1
+      },
+      {
+        "id": 7,
+        "value": 6,
+        "taskId": 1
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 2,
+    "divisor": 3,
+    "denominator": 3,
+    "result": 1,
+    "description": "3 ділиться на 3 як 1 + 1 + 1 ",
+    "options": [
+      {
+        "id": 8,
+        "value": 1,
+        "taskId": 2
+      },
+      {
+        "id": 9,
+        "value": 2,
+        "taskId": 2
+      },
+      {
+        "id": 10,
+        "value": 0,
+        "taskId": 2
+      },
+      {
+        "id": 11,
+        "value": 2,
+        "taskId": 2
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 3,
+    "divisor": 16,
+    "denominator": 4,
+    "result": 4,
+    "description": "16 ділиться на 4 як 4 + 4 + 4 + 4 ",
+    "options": [
+      {
+        "id": 12,
+        "value": 4,
+        "taskId": 3
+      },
+      {
+        "id": 13,
+        "value": 5,
+        "taskId": 3
+      },
+      {
+        "id": 14,
+        "value": 3,
+        "taskId": 3
+      },
+      {
+        "id": 15,
+        "value": 8,
+        "taskId": 3
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 4,
+    "divisor": 24,
+    "denominator": 4,
+    "result": 6,
+    "description": "24 ділиться на 4 як 6 + 6 + 6 + 6 ",
+    "options": [
+      {
+        "id": 16,
+        "value": 6,
+        "taskId": 4
+      },
+      {
+        "id": 17,
+        "value": 7,
+        "taskId": 4
+      },
+      {
+        "id": 18,
+        "value": 5,
+        "taskId": 4
+      },
+      {
+        "id": 19,
+        "value": 12,
+        "taskId": 4
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 5,
+    "divisor": 28,
+    "denominator": 4,
+    "result": 7,
+    "description": "28 ділиться на 4 як 7 + 7 + 7 + 7 ",
+    "options": [
+      {
+        "id": 20,
+        "value": 7,
+        "taskId": 5
+      },
+      {
+        "id": 21,
+        "value": 8,
+        "taskId": 5
+      },
+      {
+        "id": 22,
+        "value": 6,
+        "taskId": 5
+      },
+      {
+        "id": 23,
+        "value": 14,
+        "taskId": 5
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 6,
+    "divisor": 32,
+    "denominator": 4,
+    "result": 8,
+    "description": "32 ділиться на 4 як 8 + 8 + 8 + 8 ",
+    "options": [
+      {
+        "id": 24,
+        "value": 8,
+        "taskId": 6
+      },
+      {
+        "id": 25,
+        "value": 9,
+        "taskId": 6
+      },
+      {
+        "id": 26,
+        "value": 7,
+        "taskId": 6
+      },
+      {
+        "id": 27,
+        "value": 16,
+        "taskId": 6
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 7,
+    "divisor": 27,
+    "denominator": 9,
+    "result": 3,
+    "description": "27 ділиться на 9 як 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 ",
+    "options": [
+      {
+        "id": 28,
+        "value": 3,
+        "taskId": 7
+      },
+      {
+        "id": 29,
+        "value": 4,
+        "taskId": 7
+      },
+      {
+        "id": 30,
+        "value": 2,
+        "taskId": 7
+      },
+      {
+        "id": 31,
+        "value": 6,
+        "taskId": 7
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 8,
+    "divisor": 18,
+    "denominator": 6,
+    "result": 3,
+    "description": "18 ділиться на 6 як 3 + 3 + 3 + 3 + 3 + 3 ",
+    "options": [
+      {
+        "id": 32,
+        "value": 3,
+        "taskId": 8
+      },
+      {
+        "id": 33,
+        "value": 4,
+        "taskId": 8
+      },
+      {
+        "id": 34,
+        "value": 2,
+        "taskId": 8
+      },
+      {
+        "id": 35,
+        "value": 6,
+        "taskId": 8
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 9,
+    "divisor": 14,
+    "denominator": 7,
+    "result": 2,
+    "description": "14 ділиться на 7 як 2 + 2 + 2 + 2 + 2 + 2 + 2 ",
+    "options": [
+      {
+        "id": 36,
+        "value": 2,
+        "taskId": 9
+      },
+      {
+        "id": 37,
+        "value": 3,
+        "taskId": 9
+      },
+      {
+        "id": 38,
+        "value": 1,
+        "taskId": 9
+      },
+      {
+        "id": 39,
+        "value": 4,
+        "taskId": 9
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 10,
+    "divisor": 12,
+    "denominator": 4,
+    "result": 3,
+    "description": "12 ділиться на 4 як 3 + 3 + 3 + 3 ",
+    "options": [
+      {
+        "id": 40,
+        "value": 3,
+        "taskId": 10
+      },
+      {
+        "id": 41,
+        "value": 4,
+        "taskId": 10
+      },
+      {
+        "id": 42,
+        "value": 2,
+        "taskId": 10
+      },
+      {
+        "id": 43,
+        "value": 6,
+        "taskId": 10
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 11,
+    "divisor": 9,
+    "denominator": 3,
+    "result": 3,
+    "description": "9 ділиться на 3 як 3 + 3 + 3 ",
+    "options": [
+      {
+        "id": 44,
+        "value": 3,
+        "taskId": 11
+      },
+      {
+        "id": 45,
+        "value": 4,
+        "taskId": 11
+      },
+      {
+        "id": 46,
+        "value": 2,
+        "taskId": 11
+      },
+      {
+        "id": 47,
+        "value": 6,
+        "taskId": 11
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 12,
+    "divisor": 30,
+    "denominator": 3,
+    "result": 10,
+    "description": "30 ділиться на 3 як 10 + 10 + 10 ",
+    "options": [
+      {
+        "id": 48,
+        "value": 10,
+        "taskId": 12
+      },
+      {
+        "id": 49,
+        "value": 11,
+        "taskId": 12
+      },
+      {
+        "id": 50,
+        "value": 9,
+        "taskId": 12
+      },
+      {
+        "id": 51,
+        "value": 20,
+        "taskId": 12
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 13,
+    "divisor": 32,
+    "denominator": 4,
+    "result": 8,
+    "description": "32 ділиться на 4 як 8 + 8 + 8 + 8 ",
+    "options": [
+      {
+        "id": 52,
+        "value": 8,
+        "taskId": 13
+      },
+      {
+        "id": 53,
+        "value": 9,
+        "taskId": 13
+      },
+      {
+        "id": 54,
+        "value": 7,
+        "taskId": 13
+      },
+      {
+        "id": 55,
+        "value": 16,
+        "taskId": 13
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 14,
+    "divisor": 33,
+    "denominator": 3,
+    "result": 11,
+    "description": "33 ділиться на 3 як 11 + 11 + 11 ",
+    "options": [
+      {
+        "id": 56,
+        "value": 11,
+        "taskId": 14
+      },
+      {
+        "id": 57,
+        "value": 12,
+        "taskId": 14
+      },
+      {
+        "id": 58,
+        "value": 10,
+        "taskId": 14
+      },
+      {
+        "id": 59,
+        "value": 22,
+        "taskId": 14
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 15,
+    "divisor": 48,
+    "denominator": 6,
+    "result": 8,
+    "description": "48 ділиться на 6 як 8 + 8 + 8 + 8 + 8 + 8 ",
+    "options": [
+      {
+        "id": 60,
+        "value": 8,
+        "taskId": 15
+      },
+      {
+        "id": 61,
+        "value": 9,
+        "taskId": 15
+      },
+      {
+        "id": 62,
+        "value": 7,
+        "taskId": 15
+      },
+      {
+        "id": 63,
+        "value": 16,
+        "taskId": 15
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 16,
+    "divisor": 56,
+    "denominator": 8,
+    "result": 7,
+    "description": "56 ділиться на 8 як 7 + 7 + 7 + 7 + 7 + 7 + 7 + 7 ",
+    "options": [
+      {
+        "id": 64,
+        "value": 7,
+        "taskId": 16
+      },
+      {
+        "id": 65,
+        "value": 8,
+        "taskId": 16
+      },
+      {
+        "id": 66,
+        "value": 6,
+        "taskId": 16
+      },
+      {
+        "id": 67,
+        "value": 14,
+        "taskId": 16
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 17,
+    "divisor": 63,
+    "denominator": 9,
+    "result": 7,
+    "description": "63 ділиться на 9 як 7 + 7 + 7 + 7 + 7 + 7 + 7 + 7 + 7 ",
+    "options": [
+      {
+        "id": 68,
+        "value": 7,
+        "taskId": 17
+      },
+      {
+        "id": 69,
+        "value": 8,
+        "taskId": 17
+      },
+      {
+        "id": 70,
+        "value": 6,
+        "taskId": 17
+      },
+      {
+        "id": 71,
+        "value": 14,
+        "taskId": 17
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 18,
+    "divisor": 72,
+    "denominator": 8,
+    "result": 9,
+    "description": "72 ділиться на 8 як 9 + 9 + 9 + 9 + 9 + 9 + 9 + 9 ",
+    "options": [
+      {
+        "id": 72,
+        "value": 9,
+        "taskId": 18
+      },
+      {
+        "id": 73,
+        "value": 10,
+        "taskId": 18
+      },
+      {
+        "id": 74,
+        "value": 8,
+        "taskId": 18
+      },
+      {
+        "id": 75,
+        "value": 18,
+        "taskId": 18
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 19,
+    "divisor": 81,
+    "denominator": 9,
+    "result": 9,
+    "description": "81 ділиться на 9 як 9 + 9 + 9 + 9 + 9 + 9 + 9 + 9 + 9 ",
+    "options": [
+      {
+        "id": 76,
+        "value": 9,
+        "taskId": 19
+      },
+      {
+        "id": 77,
+        "value": 10,
+        "taskId": 19
+      },
+      {
+        "id": 78,
+        "value": 8,
+        "taskId": 19
+      },
+      {
+        "id": 79,
+        "value": 18,
+        "taskId": 19
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 20,
+    "divisor": 49,
+    "denominator": 7,
+    "result": 7,
+    "description": "49 ділиться на 7 як 7 + 7 + 7 + 7 + 7 + 7 + 7 ",
+    "options": [
+      {
+        "id": 80,
+        "value": 7,
+        "taskId": 20
+      },
+      {
+        "id": 81,
+        "value": 8,
+        "taskId": 20
+      },
+      {
+        "id": 82,
+        "value": 6,
+        "taskId": 20
+      },
+      {
+        "id": 83,
+        "value": 14,
+        "taskId": 20
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 21,
+    "divisor": 42,
+    "denominator": 6,
+    "result": 7,
+    "description": "42 ділиться на 6 як 7 + 7 + 7 + 7 + 7 + 7 ",
+    "options": [
+      {
+        "id": 84,
+        "value": 7,
+        "taskId": 21
+      },
+      {
+        "id": 85,
+        "value": 8,
+        "taskId": 21
+      },
+      {
+        "id": 86,
+        "value": 6,
+        "taskId": 21
+      },
+      {
+        "id": 87,
+        "value": 14,
+        "taskId": 21
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 22,
+    "divisor": 36,
+    "denominator": 4,
+    "result": 9,
+    "description": "36 ділиться на 4 як 9 + 9 + 9 + 9 ",
+    "options": [
+      {
+        "id": 88,
+        "value": 9,
+        "taskId": 22
+      },
+      {
+        "id": 89,
+        "value": 10,
+        "taskId": 22
+      },
+      {
+        "id": 90,
+        "value": 8,
+        "taskId": 22
+      },
+      {
+        "id": 91,
+        "value": 18,
+        "taskId": 22
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 23,
+    "divisor": 25,
+    "denominator": 5,
+    "result": 5,
+    "description": "25 ділиться на 5 як 5 + 5 + 5 + 5 + 5 ",
+    "options": [
+      {
+        "id": 92,
+        "value": 5,
+        "taskId": 23
+      },
+      {
+        "id": 93,
+        "value": 6,
+        "taskId": 23
+      },
+      {
+        "id": 94,
+        "value": 4,
+        "taskId": 23
+      },
+      {
+        "id": 95,
+        "value": 10,
+        "taskId": 23
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 24,
+    "divisor": 45,
+    "denominator": 5,
+    "result": 9,
+    "description": "45 ділиться на 5 як 9 + 9 + 9 + 9 + 9 ",
+    "options": [
+      {
+        "id": 96,
+        "value": 9,
+        "taskId": 24
+      },
+      {
+        "id": 97,
+        "value": 10,
+        "taskId": 24
+      },
+      {
+        "id": 98,
+        "value": 8,
+        "taskId": 24
+      },
+      {
+        "id": 99,
+        "value": 18,
+        "taskId": 24
+      }
+    ],
+    "userAnswer": null
+  },
+  {
+    "id": 25,
+    "divisor": 40,
+    "denominator": 8,
+    "result": 5,
+    "description": "40 ділиться на 8 як 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 ",
+    "options": [
+      {
+        "id": 100,
+        "value": 5,
+        "taskId": 25
+      },
+      {
+        "id": 101,
+        "value": 6,
+        "taskId": 25
+      },
+      {
+        "id": 102,
+        "value": 4,
+        "taskId": 25
+      },
+      {
+        "id": 103,
+        "value": 10,
+        "taskId": 25
+      }
+    ],
+    "userAnswer": null
+  }
+]
