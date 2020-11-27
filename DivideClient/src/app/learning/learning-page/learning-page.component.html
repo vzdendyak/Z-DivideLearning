@@ -32,5 +32,5 @@
   <button mat-flat-button color="accent" class="my-button" [ngClass]="{'active-n': activeNumber==n}" *ngFor="let n of numbers" (click)="showNumber(n)">{{n}}</button>
 </div>
 <div class="second-navigation-block">
-  <button mat-flat-button color="accent" class="my-button-menu"[routerLink]="['/menu']">Меню</button>
+  <button mat-flat-button class="my-button-menu"[routerLink]="['/menu']">Меню</button>
 </div>

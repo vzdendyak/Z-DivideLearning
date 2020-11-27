@@ -30,7 +30,7 @@ export class TestPageComponent implements OnInit {
       this.tasks = value.tasks;
       console.log(this.tasks);
       // this.seconds = 1200;
-      this.seconds = 10;
+      this.seconds = 1200;
       this.startTimer();
     })
   }

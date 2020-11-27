@@ -14,6 +14,7 @@ import { TestPageComponent } from './test/test-page/test-page.component';
 import {MatProgressBarModule} from "@angular/material/progress-bar";
 import {MatCardModule} from "@angular/material/card";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AboutPageComponent } from './about/about-page/about-page.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MenuPageComponent,
     LearningPageComponent,
     SummaryPageComponent,
-    TestPageComponent
+    TestPageComponent,
+    AboutPageComponent
   ],
   imports: [
     BrowserModule,
@@ -33,6 +35,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
         {path: 'test', component: TestPageComponent},
         {path: 'summary', component: SummaryPageComponent},
         {path: 'menu', component: MenuPageComponent},
+        {path: 'about', component: AboutPageComponent},
         {path: '**', redirectTo: 'menu'}
       ]
     ),

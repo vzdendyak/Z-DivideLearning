@@ -1,7 +1,12 @@
 const fs = require('fs');
 const Option = require('./Option');
 
-
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
 class LearningTask {
     static i = 0;
 
@@ -34,6 +39,7 @@ class LearningTask {
             new Option(firstId + 2, third, this.id),
             new Option(firstId + 3, fourh, this.id),
         ];
+        shuffleArray(this.options);
     }
 }
 
@@ -69,6 +75,7 @@ class PracticeTask {
             new Option(firstId + 2, third, this.id),
             new Option(firstId + 3, fourh, this.id),
         ];
+        shuffleArray(this.options);
     }
 }
 
@@ -96,6 +103,7 @@ class ExamTask {
             new Option(firstId + 2, third, this.id),
             new Option(firstId + 3, fourh, this.id),
         ];
+        shuffleArray(this.options);
     }
 }
 
