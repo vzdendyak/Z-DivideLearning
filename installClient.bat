@@ -1,2 +1,0 @@
-cd DivideClient 
-npm install

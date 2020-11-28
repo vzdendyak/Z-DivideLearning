@@ -1,2 +1,0 @@
-cd DivideApi
-npm install
