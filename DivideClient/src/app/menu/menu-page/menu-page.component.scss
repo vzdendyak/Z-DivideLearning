@@ -9,7 +9,7 @@
 
 .buttons-list {
   height: 100%;
-  font-size: 40pt;
+  font-size: 35pt;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -18,16 +18,79 @@
 
 .menu-button {
   background-color: #3f51b5e0;
-  width: 30%;
+  min-width: 30%;
   margin: 35px auto;
   border-radius: 10px;
   padding: 25px 0px;
+  width: 50%;
   transition-duration: 0.4s;
-  &:hover{
+
+  &:hover {
     background-color: rgb(22 61 255 / 88%);
     cursor: pointer;
   }
 }
-.my-link{
+
+.my-link {
   padding: 0px 40px;
+}
+// Laptop L
+@media (max-width: 1440px) {
+  .buttons-list {
+    font-size: 25pt;
+  }
+  .menu-button {
+    padding: 22px 0px;
+    width: 40%;
+    margin: 30px auto;
+  }
+  .my-link {
+    padding: 0px;
+  }
+
+}
+// mobile L
+@media (max-width: 768px) {
+  .buttons-list {
+    font-size: 20pt;
+  }
+  .menu-button {
+    margin: 50px auto;
+    width: 60%;
+    padding: 30px 0px;
+  }
+  .my-link {
+    padding: 0px;
+  }
+
+}
+// mobile M
+@media (max-width: 425px) {
+  .buttons-list {
+    font-size: 20pt;
+  }
+  .menu-button {
+    margin: 60px auto;
+    width: 65%;
+    padding: 30px 0px;
+  }
+  .my-link {
+    padding: 0px;
+  }
+
+}
+// mobile S
+@media (max-width: 425px) {
+  .buttons-list {
+    font-size: 20pt;
+  }
+  .menu-button {
+    margin: 55px auto;
+    width: 70%;
+    padding: 25px 0px;
+  }
+  .my-link {
+    padding: 0px;
+  }
+
 }
