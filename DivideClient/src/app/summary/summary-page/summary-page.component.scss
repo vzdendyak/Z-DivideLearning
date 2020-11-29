@@ -1,41 +1,110 @@
-.summary-block{
+.summary-block {
   padding-top: 270px;
 }
-.summary-title{
+
+.summary-title {
   display: flex;
   flex-direction: column;
   text-align: center;
   width: 62%;
   margin: auto;
+  font-size: 30pt;
 }
-.summary-text{
-  font-size: 40pt;
+
+.summary-text {
   background-color: #FF9800;
   border-radius: 10px;
   padding: 28px;
 }
-.summary-text-motivation{
-  padding: 20px;
+
+
+.text-sum {
   font-size: 20pt;
+  padding: 20px;
   background-color: #8BC34A;
   border-radius: 7px;
   width: 76%;
   margin: auto;
 }
-.summary-text-quote{
-  padding: 20px;
-  font-size: 20pt;
-  background-color: #8BC34A;
-  border-radius: 7px;
-  width: 76%;
+
+.summary-text-quote {
   margin: 10px auto;
 }
-.move-buttons{
+
+.move-buttons {
   display: flex;
   justify-content: space-evenly;
   margin-top: 270px;
 }
-.my-button{
+
+.my-button {
   width: 30%;
   padding: 18px;
+}
+
+// 4k
+@media (max-width: 2550px) {
+  .summary-title {
+    width: 85%;
+  }
+}
+
+// Laptop L
+@media (max-width: 1430px) {
+
+}
+
+@media (max-width: 1024px) {
+  .text-sum {
+    font-size: 15pt;
+  }
+}
+
+@media (max-height: 830px) {
+  .move-buttons {
+    margin-top: 210px;
+  }
+  .summary-block {
+    padding-top: 190px;
+  }
+}
+
+@media (max-height: 768px) {
+  .move-buttons {
+    margin-top: 150px;
+  }
+}
+
+@media (max-height: 630px) {
+  .move-buttons {
+    margin-top: 120px;
+  }
+  .summary-block {
+    padding-top: 170px;
+  }
+}
+
+// mobile L
+@media (max-width: 768px) {
+  .summary-title {
+    font-size: 16pt;
+  }
+  .text-sum {
+    font-size: 11pt;
+    padding: 10px;
+  }
+  .summary-text {
+    padding: 21px;
+  }
+  .my-button {
+    width: 40%;
+    padding: 18px;
+  }
+}
+
+
+@media (max-width: 425px) {
+  .summary-title {
+    font-size: 14pt;
+  }
 }

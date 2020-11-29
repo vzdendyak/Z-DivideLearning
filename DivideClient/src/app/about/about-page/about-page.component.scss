@@ -6,24 +6,25 @@
 }
 
 .title-block {
-  margin: 0px auto;
+  margin: 10px auto;
   padding: 25px;
   background-color: #9CCC65;
   border-radius: 9px;
-}
-
-.title-text {
   font-size: 32pt;
 }
 
+.title-text {
+}
+
 .desc-block {
-  width: 88%;
+  width: 93%;
   font-size: 14pt;
   margin: 0 auto;
   background-color: #d2d2d2;
   padding: 25px;
   border: 3px solid #a5a5a5;
   border-radius: 8px;
+  overflow: auto;
 }
 
 .desc-text {
@@ -43,7 +44,7 @@
 }
 
 .author-text {
-margin: 5px;
+  margin: 5px;
 }
 
 ul {
@@ -65,4 +66,62 @@ ul li {
 
 p {
   text-indent: 30px;
+}
+
+.my-button-menu {
+  margin: 15px 0px;
+}
+
+// 4k
+@media (max-width: 2540px) {
+  .title-block {
+    padding: 17px;
+    font-size: 18pt;
+  }
+  .desc-block {
+    font-size: 12pt;
+  }
+}
+
+// Laptop L
+@media (max-width: 1430px) {
+  .desc-block {
+    font-size: 11pt;
+  }
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-height: 830px) {
+
+}
+
+@media (max-height: 768px) {
+
+}
+
+@media (max-height: 630px) {
+
+}
+
+// mobile L
+@media (max-width: 768px) {
+  .title-block {
+    padding: 13px;
+    font-size: 13pt;
+    width: 261px;
+  }
+  h2{
+    font-size: 12pt;
+  }
+  ul{
+    padding-left: 20px;
+  }
+}
+
+
+@media (max-width: 425px) {
+
 }
