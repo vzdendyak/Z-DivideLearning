@@ -1,25 +1,29 @@
 
-.learning-content{
-  display: flex;
-  justify-content: space-evenly;
-  height: 90%;
-}
-.tasks-block {
-  display: grid;
-  height: 80%;
-  margin-top: 20px;
-  width: 75%;
-}
-.remark-block{
-  height: 80%;
-  margin-top: 20px;
+.learning-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
+  height: 80%;
 }
+
+.tasks-block {
+  background: #c7c7c7;
+  border-radius: 8px;
+  height: 90%;
+  display: block;
+  margin: 0px 5px;
+  overflow: auto;
+}
+
+.remark-block {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .task {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin: 7px 0px;
 }
 
 .calculation {
@@ -28,7 +32,7 @@
   margin: auto 20px;
   background-color: #fffbfb;
   border-radius: 12px;
-  height: 60%;
+  padding: 5px 0px;
 }
 
 .explanation {
@@ -40,11 +44,13 @@
   border-radius: 10px;
   color: white;
 }
-.explanation-text{
+
+.explanation-text {
   margin: auto;
   padding: 10px 25px;
   font-size: 13pt;
 }
+
 .divisor {
   background-color: #aabbf6;
 
@@ -60,7 +66,7 @@
 }
 
 .number {
-  font-size: 20pt;
+  font-size: 15pt;
   padding: 5px 10px;
   margin: auto 5px;
   border-radius: 5px;
@@ -75,39 +81,110 @@
   margin: auto;
 }
 
-.icon{
+.icon {
   padding: 15px 10px;
   margin: 15px 0px;
   border-radius: 10px;
   font-size: 17pt;
   text-align: center;
 }
-.navigation-block{
+
+.navigation-block {
   display: flex;
   justify-content: space-evenly;
-  position: relative;
-  top: -60px;
+  margin-top: 10px;
 }
-.my-button{
+
+.my-button {
   width: 8%;
-  height: 60px;
+  height: 55px;
   font-size: 18pt;
   color: black;
   background-color: #FAFAFA;
-  &:hover{
+
+  &:hover {
     background-color: #cbcbcb;
 
   }
 }
-.active-n{
+
+.active-n {
   background-color: #cbcbcb;
 
 }
-.second-navigation-block{
-  position: relative;
-  top: -30px;
+
+.second-navigation-block {
+  margin-top: 12px;
 }
-.my-button-menu{
+
+.my-button-menu {
   width: 100%;
   font-size: 14pt;
 }
+
+@media (max-width: 1440px) {
+  .icon {
+    padding: 10px 10px;
+    font-size: 12pt;
+  }
+  .explanation-text {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .number {
+    font-size: 12pt;
+  }
+  .calculation {
+    margin: auto 10px;
+  }
+
+}
+
+
+//// mobile L
+@media (max-width: 768px) {
+  .explanation-text {
+    padding: 10px 14px;
+    font-size: 9pt;
+  }
+  .explanation {
+    margin-right: 10px;
+  }
+  .number {
+    padding: 2px 5px;
+    margin: auto 3px;
+  }
+  .symbol {
+    font-size: 14pt;
+  }
+  .my-button {
+    width: 9%;
+    padding: 0px;
+    height: 53px;
+    font-size: 13pt;
+  }
+}
+
+// mobile M
+@media (max-width: 375px) {
+
+  .icon {
+    padding: 10px 3px;
+  }
+}
+
+//// mobile S
+//@media (max-width: 375px) {
+//
+// .icon{
+//   padding: 2px 5px;
+//   font-size: 10pt;
+// }
+//  .explanation-text {
+//  }
+//  .number {
+//  }
+//  .calculation {
+//    height: 40%;
+//  }
+//}

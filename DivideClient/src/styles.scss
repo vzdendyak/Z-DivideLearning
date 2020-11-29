@@ -15,15 +15,24 @@
     width: 50%;
   }
 }
-@media (max-width: 2560px) {
+@media (max-width: 1430px) {
   .content {
-    width: 50%;
+    width: 70%;
   }
 }
-@media (max-width: 768px) {
+//@media (max-width: 768px) {
+//  .tasks-block{
+//    height: 50%;
+//  }
+//  .content {
+//    width: 80%;
+//  }
+//}
+//
+@media (max-width: 375px) {
 
   .content {
-    width: 80%;
+    width: 90%;
   }
 }
 
